@@ -1,0 +1,52 @@
+# Временные файлы ОС
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+.idea/
+.vscode/
+
+# Зависимости
+node_modules/
+
+# Сборка и бандлы
+dist/
+build/
+
+# Кэш
+.npm/
+.yarn/cache/
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+# Логи
+logs/
+*.log
+
+# Env файлы
+.env
+.env.local
+.env.*.local
+
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+.env/
+.venv/
+
+# Результаты тестов
+.cache/
+.coverage
+htmlcov/
+
+# Сборка пакетов
+build/
+dist/
+*.egg-info/
